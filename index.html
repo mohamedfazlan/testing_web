@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/t-shirt_logo.png">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-rEWEU6iB6FplG2BzuuJaU5z8Ob5/JSZEnKCXvO5+5Pe8YquTKsRo5LKvo4iPaQBt" crossorigin="anonymous">
+
+    <link rel="icon" href="images/logo.png">
+    <!-- boxicons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+  
+
+.carousel-item {
+    height: 50%;
+    min-height: 80%;
+  }
+
+  .carousel-item img {
+    height: 80vh;
+    width: 50vh;
+    
+  }
+
+  
+  @media only screen and (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+
+    }
+    
+}
+
+
+
+.new a:hover {
+        background-color:rgb(8, 87, 87);
+        color: rgb(248, 248, 248); 
+        text-decoration: none;
+    }
+
+
+  
+  h5,p{
+    color: black;
+    font-size: 38px;
+    text-shadow: -2px 1px 7px rgb(57, 49, 122);
+  }
+  .carousel-caption {
+  color: black;
+  text-shadow: -2px 1px 7px rgb(57, 49, 122);
+}
+
+h5, p {
+  font-size: 38px;
+  position: 2;
+}
+
+@media (max-width: 768px) {
+  h5 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .carousel-caption {
+    bottom: 10px; 
+    text-shadow: none; 
+  }
+  .card{
+    margin: auto;
+  }
+}
+.star1{
+            width:100px;
+            height: 40px;
+            
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% -50%);
+        }
+
+    .checked{
+                color: orange;
+            }
+        .card:hover {
+           border-color:rgb(2, 255, 213); 
+          }
+         
+        .checked{
+            color: orange;
+        }
+        .card {
+        overflow: hidden;
+       }
+
+        .card:hover img {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+        }
+
+    .card-body {
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+    .para{
+      font-size: 20px;
+      text-align: justify;
+      color: white;
+    }
+    .text-center{
+      color: black;
+    }
+    footer {
+    background-color: #000; 
+  }
+
+  h6 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .form-control {
+    background-color: #1c1c1c;
+    border: none;
+    color: white;
+  }
+
+  .form-control:focus {
+    background-color: #2a2a2a;
+    color: white;
+    outline: none;
+    box-shadow: none;
+  }
+   .footer_heading{
+    color: white;
+   }
+   .footer_para{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: justify;
+   }
+
+   .btn{
+    text-decoration: none;
+   }
+
+</style>
+<body>
+ 
+    <!-- nav bar code start -->
+    <div class="new">
+    <div class="container-fluid bg-dark" > 
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <img src="images/logo.png" alt="" height="50px"> <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <img src="images/t-shirt_logo.png" alt="" height="50px"> 
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html" style="text-decoration: none;">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="tshirt.html" style="text-decoration: none;">T - Shirts</a></li>
+              <li><a class="dropdown-item" href="shirt.html">Shirts  </a></li>
+              <li><a class="dropdown-item" href="bread_bs.html">Trouser</a></li>
+              <li><a class="dropdown-item" href="burger_item_bs.html">Jersey </a></li>
+              <li><a class="dropdown-item" href="burger_item_bs.html">Shoes</a></li>
+              <li><a class="dropdown-item" href="cake_bs.html">Slippers</a></li>
+
+
+            </ul>
+            
+              
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="contactus_bs.html" style="text-decoration: none;">Contact Us</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="location.html"><img src="images/location_1.jpg" alt="" height="20px">Location</a>
+          </li>
+          <!-- new -->
+          <li class="nav-item">
+            <a class="nav-link" href="onlinedelivery_bs.html" style="text-decoration: none;"><img src="images/dilvery 2.webp" alt="" height="20px">Online Delivery</a>
+          </li>
+          <!-- new end  -->
+          <li class="nav-item">
+            <a class="nav-link" href="sign_up.html" style="text-decoration: none;">Sign Up </a>
+          </li>
+                </ul><!-- end of ul tag -->
+        </div><!-- end of collapse -->
+      </div><!-- end of fluid -->
+    </nav><!-- end of nav -->
+  </div><!-- end of container fluid -->
+</div><!-- end of new -->
+<!-- end of nav bar -->
+
+
+
+
+<!-- conursel start -->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+   
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/banner.jpg" class="d-block w-100 carousel-image" alt="...">
+              <div class="carousel-caption">
+                <h5>Find Your Brand Now!</h5>
+                <p>New Arrival</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/shoe_image.jpg" class="d-block w-100 carousel-image" alt="...">
+              <div class="carousel-caption">
+                <h5>Find Your Brand Now!</h5>
+                <p>New Arrival</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/fashion.jpg" class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption">
+                 
+                </div>
+              </div>
+          </div>
+          
+      
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- end of consural -->
+  <pre>
+
+  </pre>
+
+
+  
+
+  <div class="container">
+    <h1 style="text-align: center;">   <img src="images/nike_PNG17.png" alt="" height="28px"> Discover the Latest in <span style="color: rgb(14, 158, 110);">Nike Footwear </span></h1>
+    <hr size="30px" style="color:rgb(10, 82, 82);">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/shoes5.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Nike Brand <img src="images/nike_PNG17.png" alt="" height="28px"></h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x "></span>
+                <span class="fa fa-star fa-1x "></span>
+            </div>
+            
+            <h6 class="card-text">Nike’s classic brand gives boys cool style and strong confidence. </h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/nike_shoe.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            
+            <h2 class="card-title">Nike Brand <img src="images/nike_PNG17.png" alt="" height="28px"></h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x checked"></span>
+            </div>
+            <h6 class="card-text">Nike's white shoes: clean, stylish, and perfect for any outfit.</h6>
+            <a href="#" class="btn btn-primary" style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/green_shoe.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Nike Brand <img src="images/nike_PNG17.png" alt="" height="28px"></h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x checked"></span>
+            </div>
+            <h6 class="card-text">Nike's white and green shoes offer fresh style and comfort</h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <pre>
+
+  </pre>
+
+
+
+
+  <!-- card start  -->
+  <div class="container">
+    <h1 style="text-align: center;">  <img src="images/Adidas_logo.png" alt="" height="28px">  T - <span style="color: rgb(14, 158, 110);">S</span>hirt <span style="color: rgb(14, 158, 110);">Arrival</span></h1>
+    <hr size="30px" style="color:rgb(10, 82, 82);"2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/addidas_t-shirt_website.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Adidas Brand <img src="images/Adidas_logo.png" alt="" height="28px" style="padding-bottom: 2px;"></h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x "></span>
+            </div>
+            <h6 class="card-text">T-shirt: clean, simple, and perfect for everyday wear </h6>
+            <a href="#" class="btn btn-primary" style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/adidascollar_shirt.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Adidas Brand <img src="images/Adidas_logo.png" alt="" height="28px" style="padding-bottom: 2px;"></h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x "></span>
+            </div>
+            
+            <h6 class="card-text">T-shirt: sleek design with a modern, athletic look.</h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/green_adidas_shirt.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Adidas Brand <img src="images/Adidas_logo.png" alt="" height="28px" style="padding-bottom: 2px;"></h2>
+            
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x checked"></span>
+            </div>
+            
+            <h6 class="card-text">T-shirt: bold, vibrant, and stylish for any occasion.</h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <pre>
+
+
+  </pre>
+
+  <div class="container">
+    <h1 style="text-align: center;">  <img src="images/jersey-icon.png" alt="" height="60px">  J<span style="color: rgb(14, 158, 110);">ersey</span> <span style="color: rgb(14, 158, 110);">Offer</span></h1>
+    <hr size="30px" style="color:rgb(10, 82, 82);"2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/arsenal-j.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Jersey</h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x "></span>
+            </div>
+            <h6 class="card-text">sleek, modern look for champions on and off field. </h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/mancity.png" class="card-img-top" alt="...">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Jersey</h2>
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x "></span>
+            </div>
+            
+            <h6 class="card-text">classic style representing tradition and football excellence.</h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="images/alnassr.png" class="card-img-top" alt="..."height="285px">
+          <hr>
+          <div class="card-body">
+            <h2 class="card-title">Jersey</h2>
+             
+            <h6>Customer Review</h6>
+            <div class="star1">
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked"></span>
+                <span class="fa fa-star fa-1x checked "></span>
+                <span class="fa fa-star fa-1x checked"></span>
+            </div>
+            
+            <h6 class="card-text">bold design showcasing pride and team spirit..</h6>
+            <a href="#" class="btn btn-primary"style="text-decoration: none;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+    document.addEventListener("click",function(e){
+        if(e.target.classList.contains("gallery-item")){
+            const src = e.target.getAttribute("src");
+            document.querySelector(".modal-img").src = src;
+            const myModal = new bootstrap
+            .Modal(document.getElementById('gallery-popup'));
+            myModal.show();
+        }
+    })
+    </script>
+
+  <pre>
+
+
+
+
+  </pre>
+  
+
+  <!--footer part  -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+  <footer class="text-center text-lg-start text-white bg-black pt-4">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase mb-4">Our  <span style="color: rgb(16, 190, 190);">World</span></h6>
+
+          <ul class="list-unstyled mb-4">
+          
+            <li><a class="dropdown-item" href="#">Shirts  </a></li>
+            <li><a class="dropdown-item" href="#">Trouser</a></li>
+            <li><a class="dropdown-item" href="#">Jersey </a></li>
+            <li><a class="dropdown-item" href="#">Shoes</a></li>
+            <li><a class="dropdown-item" href="#">Slippers</a></li>
+           
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase mb-4">Ser<span style="color:rgb(16, 190, 190) ;">vice</span></h6>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Contact us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Location</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Online Delivery Information</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Returns & Exchanges</a>
+            </li>
+          
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ">
+          <h6 class="text-uppercase mb-4">Find <span style="color:rgb(16, 190, 190);">US</span></h6>
+         
+
+          <ul class="list-unstyled list-inline -pb-8">
+        
+            <li class="list-inline-item">
+                <a href="https://web.facebook.com/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 25px;"><i class='bx bxl-facebook-circle'></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 25px;"><i class='bx bxl-instagram'></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.google.com/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 25px;"><i class='bx bxl-google'></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://twitter.com/" target="_blank" class="btn-floating btn-sm text-white" style="font-size: 25px;"><i class='bx bxl-twitter'></i></a>
+            </li>
+        </ul>
+        
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase mb-4">About <span style="color:rgb(16, 190, 190);">Us</span></h6>
+
+        <p class="footer_para">We offer a diverse range of high-quality products online with 
+          a user-friendly website and secure checkout. Enjoy cash on delivery and prompt 
+          delivery, making your shopping experience convenient and hassle-free.!</p>          
+        </div>
+        <!--Grid column-->
+        
+      </div>
+      <!--Grid row-->
+      
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 border-top border-white">
+      <h6 class="footer_heading">Find Your Own Brand Here.... </h6>
+      <h6 class="footer_heading"> © 2024 Copyright: Mohamed Fazlan</h6>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
